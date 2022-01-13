@@ -1,0 +1,65 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box; }
+
+body {
+  font-family: system-ui;
+  color: #555;
+  color: #f7f7f7;
+  min-height: 100vh;
+  background-image: url("https://source.unsplash.com/1600x900/?landscape");
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box; }
+
+.weather--wrapper {
+  border: 1px solid black;
+  background-color: #000000d6;
+  padding: 4rem 5rem 3rem 2rem;
+  border-radius: 12px;
+  width: 100%;
+  max-width: 400px; }
+
+.weather__search {
+  border-radius: 12px;
+  background-color: #000000d6;
+  border-color: #fff;
+  outline: none;
+  color: #fff;
+  padding: .5rem 1rem;
+  margin-bottom: 2rem;
+  cursor: pointer; }
+
+.weather__search:focus {
+    border-width: 4px; }
+
+svg {
+  width: 2rem;
+  height: 2rem;
+  vertical-align: middle;
+  cursor: pointer;
+  margin-left: 1rem; }
+
+svg:hover {
+    color: #11768A;
+    transform: scale(1.2); }
+
+.weather__name {
+  font-weight: bold;
+  font-size: 22px; }
+
+.weather__temp {
+  padding: 3rem 0;
+  font-size: 22px;
+  font-weight: bold; }
+
+.weather__row {
+  font-size: 16px;
+  padding: 3px 0; }
+
+/*# sourceMappingURL=index.cb41b962.css.map */
